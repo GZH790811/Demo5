@@ -15,7 +15,7 @@ public abstract class BaseActivity  extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         XUI.initTheme(this);
-        StatusBarUtils.initStatusBarStyle(this,false, ActivityCompat.getColor(this,R.color.white));
+        StatusBarUtils.initStatusBarStyle(this,false, ActivityCompat.getColor(this,R.color.main_blue));
 
     }
     public abstract void init();

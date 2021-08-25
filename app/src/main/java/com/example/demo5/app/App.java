@@ -26,7 +26,5 @@ public class App extends Application {
         //设置坐标类型
         SDKInitializer.setCoordType(CoordType.BD09LL);
 
-
-
     }
 }
